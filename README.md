@@ -106,7 +106,15 @@ MAVROS provides a plugin to relay pose data published on `/mavros/vision_pose/po
 
 ### Results
 
+#### Position Setpoints
+![offboard gif](/results/offboard.gif)
 
+<p align = "left">
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;x = $0$, y = $0$, z = $1.5$
+</p>
+
+#### Square Trajectory
+![square gif](/results/square.gif)
 
 ### Troubleshooting
 
