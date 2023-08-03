@@ -63,7 +63,11 @@ The following describes the ways to setup and install the package
 
 To create a rigid body for streaming, select the markers of the object (at least three) and right-click in Motive and select `Rigid Body -> Create From Selected Markers`. Make sure the `Name` for the object to be tracked does not have any whitespaces.
 
+<img src="/images/asset_pane.png" width="200">
+
 Then you can see a new rigid body in the `Assests` pane. Note that only those objects would be streamed where the checkbox is checked in the Assests pane. 
+
+<img src="/images/broadcast_frame.png" width="200">
 
 Activate the checkbox for `Broadcast Frame Data` from the `Streaming` pane. 
 
