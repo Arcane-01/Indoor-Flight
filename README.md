@@ -50,9 +50,13 @@ In order to recieve data in ROS from an OptiTrack system running the Motive soft
 The following describes the ways to setup and install the package
 
 `cd ~/catkin_ws/src`
+
 `git clone -b kinetic-devel https://github.com/ros-drivers/vrpn_client_ros`
+
 `rosdep install --from-paths src/vrpn_client_ros --ignore-src`
+
 `cd ~/catkin_ws`
+
 `catkin build`
 
 ### Motion Capture System Setup : OptiTrack 
