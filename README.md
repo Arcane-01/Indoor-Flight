@@ -107,7 +107,10 @@ MAVROS provides a plugin to relay pose data published on `/mavros/vision_pose/po
 
 `rosrun topic_tools relay /vrpn_client_node/droneLOP/pose /mavros/vision_pose/pose`
 
-#### 
+####  Running the node for offboard mode control
+
+`rosrun offboard_py offb_node.py`
+
 ### Results
 
 #### Position Setpoints
