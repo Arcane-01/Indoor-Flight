@@ -1,7 +1,5 @@
 # Indoor-Flight
-This repo provides documentation/tutorials of setup/experiments for indoor flight with OptiTrack motion capture system in offboard mode of pixhawk.
-
-Quadcopter indoor flight using Pixhawk flight controller and OptiTrack motion capture system for position and orientation feedback. 
+This repo provides documentation/tutorials of setup for indoor flight with OptiTrack motion capture system in offboard mode of pixhawk.
 
 ### ODROID XU4 Setup
 
