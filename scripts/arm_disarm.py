@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# Code to arm and then disarm the drone after certain duration
+
 import rospy
 from mavros_msgs.srv import CommandBool, CommandBoolRequest
 from mavros_msgs.msg import State
