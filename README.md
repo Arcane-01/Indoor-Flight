@@ -17,7 +17,7 @@ To set a static IP address open `/etc/network/interfaces` file for editing by th
 
 Add or edit following lines to the file, and make sure it matches your WiFi network. Added lines should look similar to this.
 
-```
+```python
 auto wlan0 # The following will auto-start connection after boot
 allow-hotplug wlan0 # wlan0 WiFi card number
 iface wlan0 inet static
@@ -129,7 +129,7 @@ MAVROS provides a plugin to relay pose data published on `/mavros/vision_pose/po
 
 ### Troubleshooting
 
-```  
+``` python
 Errors     << mavros:make /home/odroid/catkin_ws/logs/mavros/build.make.002.log
 c++: fatal error: Killed signal terminated program cc1plus
 compilation terminated.
