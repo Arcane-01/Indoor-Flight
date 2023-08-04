@@ -129,6 +129,7 @@ MAVROS provides a plugin to relay pose data published on `/mavros/vision_pose/po
 
 ### Troubleshooting
 
+*
 ``` python
 Errors     << mavros:make /home/odroid/catkin_ws/logs/mavros/build.make.002.log
 c++: fatal error: Killed signal terminated program cc1plus
@@ -173,3 +174,6 @@ Failed    <<< mavros                     [ 3 minutes and 32.1 seconds ]
 ```
 **Solution** : Use `catkin build -j1`, which will run only one instance of the g++, that is slower, but you'll fit in less RAM. You can refer [this](https://github.com/mavlink/mavros/issues/1457) for resolving this error. 
 
+* `[ERROR]:FCU:Fail:CPU load too high`
+  
+**Solution** : Change the value of the EKF2 parameter `IMU_GYRO_RATE` to 400
