@@ -1,5 +1,7 @@
 #! /usr/bin/env python3
 
+# Code to making the drone go to a position setpoint with the low-level controller of pixhawk
+
 import rospy
 from geometry_msgs.msg import PoseStamped
 from mavros_msgs.msg import State
