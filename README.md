@@ -8,9 +8,13 @@ This repo provides documentation/tutorials of setup for indoor flight with OptiT
 It is recommended to use static ip address if you plan to use ODROID via a WiFi network. Follow these steps for setting the static ip:
 
 Check the WiFi card number with the following command
+
 `ifconfig -a`
+
 To set a static IP address open `/etc/network/interfaces` file for editing by the following command
+
 `sudo nano /etc/network/interfaces`
+
 Add or edit following lines to the file, and make sure it matches your WiFi network. Added lines should look similar to this.
 
 ```
@@ -125,8 +129,7 @@ MAVROS provides a plugin to relay pose data published on `/mavros/vision_pose/po
 
 ### Troubleshooting
 
-*
-```
+```  
 Errors     << mavros:make /home/odroid/catkin_ws/logs/mavros/build.make.002.log
 c++: fatal error: Killed signal terminated program cc1plus
 compilation terminated.
@@ -168,5 +171,5 @@ Failed    <<< mavros                     [ 3 minutes and 32.1 seconds ]
 [build]   Failed:    1 packages failed.                                        
 [build] Runtime: 4 minutes and 30.0 seconds total.
 ```
-**Solution** : Use `catkin build -j1`, which will run only one instance of the g++, that is slower, but you'll fit in less RAM. You can [refer](https://github.com/mavlink/mavros/issues/1457) this for resolving this error. 
+**Solution** : Use `catkin build -j1`, which will run only one instance of the g++, that is slower, but you'll fit in less RAM. You can refer [this](https://github.com/mavlink/mavros/issues/1457) for resolving this error. 
 
