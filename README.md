@@ -76,6 +76,7 @@ Then you can see a new rigid body in the `Assests` pane. Note that only those ob
 Activate the checkbox for `Broadcast Frame Data` from the `Streaming` pane. 
 
 <img src="/images/motive .png" width="550">
+
 ### Feeding MOCAP data into Pixhawk
 
 You need to set your flight controller firmware PX4, to accept mocap data. PX4 has two state estimators, EKF2(default) an extended Kalman filter, and LPE. 
