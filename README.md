@@ -168,5 +168,5 @@ Failed    <<< mavros                     [ 3 minutes and 32.1 seconds ]
 [build]   Failed:    1 packages failed.                                        
 [build] Runtime: 4 minutes and 30.0 seconds total.
 ```
-Solution : Use catkin build -j1, which will run only one instance of the g++, that is slower, but you'll fit in less RAM.
+**Solution** : Use `catkin build -j1`, which will run only one instance of the g++, that is slower, but you'll fit in less RAM. You can [refer](https://github.com/mavlink/mavros/issues/1457) this for resolving this error. 
 
